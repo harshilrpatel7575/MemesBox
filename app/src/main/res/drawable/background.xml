@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient android:centerColor="#FFFFFF"
+        android:angle="45"
+        android:gradientRadius="20dp"
+        android:endColor="@color/cardview_light_background"
+        android:centerX="@integer/material_motion_duration_long_1"
+        android:centerY="@integer/material_motion_duration_long_2"
+        android:startColor="#000000"/>
+    <padding android:top="10dp"
+        android:bottom="10dp"
+        />
+    <corners android:topRightRadius="15dp"
+        android:topLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+        android:bottomLeftRadius="15dp"
+        android:radius="20dp"/>
+</shape>
